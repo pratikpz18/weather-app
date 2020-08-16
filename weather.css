@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-style: "Georgia", serif;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to right, rgb(116, 235, 213), rgb(172, 182, 229));
+}
+.container{
+	min-height: 60vh;
+	text-align: center;
+	color: #002651 ;
+}
+.input{
+	width: 9rem;
+	font-size: 18px;
+	margin-right:  1.5rem;
+	background-color: transparent;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid grey;
+}
+.btn{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0.3rem 1.2rem;
+	text-align: center;
+	outline: none;
+	border:none;
+	background: #e2f3f5 ;
+	color: #3b4a6b ;
+}
+.output1{
+	display: flex;
+	align-items: center;
+}
+.city{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.temp{
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-weight: bold;
+}
+.description{
+	font-size: 1.2rem;
+	word-spacing: 0.6rem;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+}
